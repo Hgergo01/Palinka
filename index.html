@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANTRA PÁLINKA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/mantra.png"></a>
+            <h3>(m)AnTra</h3>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">KEZDŐLAP</a></li>
+                    <li><a href="">RÓLUNK</a></li>
+                    <li><a href="">KAPCSOLAT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+     <div class="text-box"> 
+        <h1>(m)AnTra</h1>
+        <p>Cégünk, az (m)AnTra Pálinka Kft., büszkén mutatkozik be Önnek. Vállalkozásunk 2023 szeptemberében alakult, és székhelye Felsőtárkányban található. <br> Célunk, hogy a magas minőségű pálinka szerelmeseit kiváló termékeinkkel és szolgáltatásainkkal szolgáljuk ki.
+            A tevékenységi körünk a pálinkafőzésre és annak értékesítésére terjed ki. <br> Elkötelezettek vagyunk a hagyományos pálinkakészítés iránt, és szívünk-lelkünk azon van, hogy a legkiválóbb alapanyagokból és gondos munkával olyan pálinkákat hozzunk létre, amelyek a legjobbak közé tartoznak.<br> Széles választékot kínálunk különböző ízvilágú és minőségi pálinkáinkból, hogy mindenki megtalálhassa az ízlésének megfelelőt.</p>
+        <a href="" class="birs-btn">Birs<h4>7000 Ft + ÁFA</h4></a>
+        <a href="" class="alma-btn">Alma<h4>4500 Ft + ÁFA</h4></a>
+        <a href="" class="szilva-btn">Meggy<h4>5500 Ft + ÁFA</h4></a>
+        <a href="" class="som-btn">Szőlő<h4>4800 Ft + ÁFA</h4></a>
+
+     </div>   
+
+    </section>
+    <!--- Rólunk -->
+
+    <section class="about">
+        <h1>A tudásunk</h1>
+        <p></p>
+
+        <div class="row">
+            <div class="about-col">
+                <h3>Eredmény</h3>
+                <p>Az eredmény egy kifinomult és egyedi ízvilágú pálinka, amelyet mindenki élvezhet. Célunk, hogy Önnek és családjának a legjobbat kínáljuk, és a minőség mindig az elsődleges szempont marad.</p>
+            </div>
+            <div class="about-col">
+                <h3>Minőség</h3>
+                <p>Minőség iránti elkötelezettségünk az örökségünk része, és minden termékünk a családi hagyományainkhoz hű maradva készül. A legnagyobb gondossággal válogatjuk meg a legjobb alapanyagokat, és a főzés minden folyamatában a legmagasabb minőségi szabványokat tartjuk be.</p>
+            </div>
+            <div class="about-col">
+                <h3>Család</h3>
+                <p>A (m)AnTra Pálinka Kft. családi vállalkozásként működik, és büszkék vagyunk több generációs tapasztalatunkra a pálinkafőzés terén.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h1>Kapcsolat</h1>
+        <p>Keressen bátran minket!</p>
+        <div class="row">
+            <div class="contact-col">
+                    <h3>3324 Felsőtárkány Szüret utca 4</h3>
+                </div>
+                <div class="contact-col">
+                    <h3>Telefonszám: 0670234343</h3>
+                </div>
+                <div class="contact-col">
+                    <h3>email címünk: mantra@palinka.hu</h3>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+ <!--Javascript for toggle Menu-->
+<script>
+
+    const navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200";
+    }
+
+</script>
+
+
+</body>
+</html>
